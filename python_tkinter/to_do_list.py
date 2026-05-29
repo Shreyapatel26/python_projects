@@ -1,32 +1,34 @@
 import tkinter as tk
+from datetime import datetime
 
 root = tk.Tk()
-root.geometry("250x300")
+root.geometry("250x350")
 root.title('to-do list app')
-# root.resizable(False, False)
+root.resizable(False, False)
 root.config(bg="#3D2948", padx=20, pady=20)
 
 # variables 
 main_font="DejaVu Serif"
 all_bg="#3D2948"
 all_fg="#EACAFF"
+placeholder_color="#666666"
 
 # FUNCTIONS 
 def add_task():
     task = task_entry.get()
 
-    if task != "":
+    if task != "" and task != "Enter task...":
         task_frame = tk.Frame(
             tasks_frame,
-            bg=all_bg
+            bg="#5B3F6A"
         )
-        task_frame.pack(fill="x", pady=0)
+        task_frame.pack(fill="x", pady=3)
 
         task_label = tk.Label(
             task_frame,
             text=task,
             font=(main_font, 10),
-            bg=all_bg,
+            bg="#5B3F6A",
             fg="#EACAFF",
             anchor="w"
         )
@@ -60,22 +62,56 @@ def add_task():
 
         task_entry.delete(0, tk.END)
 
+def on_focus_in(event):
+    if task_entry.get() == "Enter task...":
+        task_entry.delete(0, tk.END)
+        task_entry.config(fg=all_fg)
+
+def on_focus_out(event):
+    if task_entry.get() == "":
+        task_entry.insert(0, "Enter task...")
+        task_entry.config(fg=placeholder_color)
+
 # GUI
-title_label = tk.Label(
+
+#  date and time
+today = datetime.now()
+current_day = today.strftime("%A")
+current_date = today.strftime("%d %B %Y")
+
+day_label = tk.Label(
     root,
-    text="add task here:",
-    font=(main_font, 12),
-    fg="#EACAFF",
-    bg=all_bg
+    text=current_day,
+    font=(main_font, 17),
+    bg=all_bg,
+    fg=all_fg
 )
-title_label.pack(pady=10, anchor="nw")
+day_label.pack()
+
+date_label = tk.Label(
+    root,
+    text=current_date,
+    font=(main_font, 7, "bold"),
+    bg=all_bg,
+    fg=all_fg
+)
+date_label.pack()
+
+# seperator
+seperator = tk.Frame(
+    root,
+    bg=all_fg,
+    width=150,
+    height=1
+)
+seperator.pack(pady=8)
 
 # a base frame to hold the text field and add task button together
 input_frame = tk.Frame(
     root,
     bg=all_bg
 )
-input_frame.pack(fill="x")
+input_frame.pack(fill="x", pady=10)
 
 # added tasks-list frame
 tasks_frame = tk.Frame(
@@ -102,7 +138,7 @@ addtask_btn = tk.Button(
 
     command=add_task
 )
-addtask_btn.pack(side="right", fill="both")
+addtask_btn.pack(side="left", fill="both")
 
 # the text field to enter task
 task_entry = tk.Entry(
@@ -115,6 +151,14 @@ task_entry = tk.Entry(
     highlightthickness=0,
     insertbackground=all_fg
 )
+
+# entry placeholder
+task_entry.insert(0, "Enter task...")
+task_entry.config(fg=placeholder_color)
+
+task_entry.bind("<FocusIn>", on_focus_in)
+task_entry.bind("<FocusOut>", on_focus_out)
+
 task_entry.pack(
     side="left",
     fill="x",
