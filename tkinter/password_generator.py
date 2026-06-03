@@ -2,7 +2,7 @@ import tkinter as tk
 import random, string
 
 root = tk.Tk()
-root.title("password enerator")
+root.title("password generator")
 root.geometry("520x470")
 root.resizable(False, False)
 root.config(bg="#14141C")
