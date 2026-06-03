@@ -5,7 +5,22 @@ a collection of projects I built while learning python GUI development.
 currently learning tkinter and building projects to improve my programming and problem-solving skills.
 
 
-## calculator
+## [password generator](tkinter/password_generator.py)
+a password generator built with tkinter.
+
+features:
+- generate random passwords
+- choose whether to include uppercase letters, digits and symbols
+- password strength indicator (weak, medium, strong)
+- copy generated passwords to clipboard
+- input validation for invalid or non-numeric lengths
+- user-friendly graphical interface
+
+![image alt](https://github.com/Shreyapatel26/python-projects/blob/30f50883e874892a6ae6650b4221045d74068f16/tkinter/screenshots/password_generator.png)
+
+--- 
+
+## [calculator](tkinter/calculator.py)
 a basic calculator built with tkinter.
 
 features:
@@ -18,7 +33,7 @@ features:
 
 ---
 
-## to-do list
+## [to-do list](tkinter/todo_list.py)
 a simple task management application built with tkinter.
 
 features:
@@ -27,21 +42,6 @@ features:
 - displays the current date and day
 
 ![image alt](https://github.com/Shreyapatel26/python_projects/blob/0efcfd7c3f3633ee32f6ac4f905ef0cc7e091cc5/tkinter/screenshots/todo_list.png)
-
----
-
-## password generator
-a password generator built with Tkinter.
-
-features:
-- generate random passwords
-- choose whether to include uppercase letters, digits and symbols
-- password strength indicator (weak, medium, strong)
-- copy generated passwords to clipboard
-- input validation for invalid or non-numeric lengths
-- user-friendly graphical interface
-
-![image alt](https://github.com/Shreyapatel26/python_projects/blob/c648c682c14dd4919f520d4abd2bbff97f8c7599/tkinter/screenshots/password_generator.png)
 
 
 ---
