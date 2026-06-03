@@ -8,7 +8,7 @@ currently learning tkinter and building projects to improve my programming and p
 ## [password generator](tkinter/password_generator.py)
 a password generator built with tkinter.
 
-features:
+**features:**
 - generate random passwords
 - choose whether to include uppercase letters, digits and symbols
 - password strength indicator (weak, medium, strong)
@@ -23,7 +23,7 @@ features:
 ## [calculator](tkinter/calculator.py)
 a basic calculator built with tkinter.
 
-features:
+**features:**
 - addition, subtraction, multiplication, division
 - modulus operation
 - error handling for invalid calculations
@@ -36,7 +36,7 @@ features:
 ## [to-do list](tkinter/todo_list.py)
 a simple task management application built with tkinter.
 
-features:
+**features:**
 - add and remove tasks
 - clean and easy-to-use interface
 - displays the current date and day
