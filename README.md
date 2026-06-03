@@ -1,7 +1,10 @@
 # python projects
 
 a collection of projects I built while learning python GUI development.
+
 currently learning tkinter and building projects to improve my programming and problem-solving skills.
+
+---
 
 ## calculator
 a basic calculator built with tkinter.
@@ -9,8 +12,8 @@ a basic calculator built with tkinter.
 features:
 - addition, subtraction, multiplication, division
 - modulus operation
-- error handling
-- theme switching (dark blue and light pink themes)
+- error handling for invalid calculations
+- theme switching (dark blue and light pink theme)
 
 ![image alt](https://github.com/Shreyapatel26/python_projects/blob/e9fbca54eaf483d153a942078c62b32f9a9010c7/tkinter/screenshots/calculator.png)
 
@@ -33,10 +36,14 @@ a password generator built with Tkinter.
 
 features:
 - generate random passwords
-- customizable password options
+- choose whether to include uppercase letters, digits and symbols
+- password strength indicator (weak, medium, strong)
+- copy generated passwords to clipboard
+- input validation for invalid or non-numeric lengths
 - user-friendly graphical interface
 
 ![image alt](https://github.com/Shreyapatel26/python_projects/blob/c648c682c14dd4919f520d4abd2bbff97f8c7599/tkinter/screenshots/password_generator.png)
+
 
 ---
 
