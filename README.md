@@ -3,7 +3,7 @@
 A collection of projects I built while learning Python GUI development.
 
 
-### [- Password Generator](tkinter/password_generator.py)
+## [- Password Generator](tkinter/password_generator.py)
 A password generator built with Tkinter.
 
 **Features:**
@@ -18,7 +18,7 @@ A password generator built with Tkinter.
 
 --- 
 
-### [- Calculator](tkinter/calculator.py)
+## [- Calculator](tkinter/calculator.py)
 A basic calculator built with Tkinter.
 
 **Features:**
@@ -31,7 +31,7 @@ A basic calculator built with Tkinter.
 
 ---
 
-### [- To-Do List](tkinter/todo_list.py)
+## [- To-Do List](tkinter/todo_list.py)
 A simple task management application built with Tkinter.
 
 **Features:**
@@ -41,6 +41,19 @@ A simple task management application built with Tkinter.
 
 ![image alt](https://github.com/Shreyapatel26/python_projects/blob/0efcfd7c3f3633ee32f6ac4f905ef0cc7e091cc5/tkinter/screenshots/todo_list.png)
 
+---
+
+## [- Expense Tracker](pyqt/expense_tracker.py)
+An expense tracking application built with PyQt.
+
+**Features:**
+- Add, edit, and delete expense records
+- Categorize expenses for better organization
+- Automatic calculation of total spending
+- Input validation and error handling
+- Clean and user-friendly graphical interface
+  
+![image alt](https://github.com/Shreyapatel26/python-projects/blob/238f9b53a6d415e0c6cecdbc7dcbfe34732e8913/pyqt/screenshots/expense_tracker.png)
 
 ---
 
