@@ -3,7 +3,7 @@
 A collection of projects I built while learning Python.
 
 ## [- Expense Tracker](pyqt/expense_tracker.py)
-An expense tracking application built with PyQt.
+An expense tracking application built with **`PyQt`**
 
 **Features:**
 - Add, edit, and delete expense records
@@ -17,7 +17,7 @@ An expense tracking application built with PyQt.
 ---
 
 ## [- Password Generator](tkinter/password_generator.py)
-A password generator built with Tkinter.
+A password generator built with **`Tkinter`**
 
 **Features:**
 - Generate random passwords
@@ -32,7 +32,7 @@ A password generator built with Tkinter.
 --- 
 
 ## [- Calculator](tkinter/calculator.py)
-A basic calculator built with Tkinter.
+A basic calculator built with **`Tkinter`**
 
 **Features:**
 - Addition, subtraction, multiplication, division
@@ -45,7 +45,7 @@ A basic calculator built with Tkinter.
 ---
 
 ## [- To-Do List](tkinter/todo_list.py)
-A simple task management application built with Tkinter.
+A simple task management application built with **`Tkinter`**
 
 **Features:**
 - Add and remove tasks
@@ -58,4 +58,4 @@ A simple task management application built with Tkinter.
 
 
 
-More projects will be added as I continue learning Python and GUI development.
+More projects will be added as I continue learning Python.
