@@ -2,6 +2,19 @@
 
 A collection of projects I built while learning Python GUI development.
 
+## [- Expense Tracker](pyqt/expense_tracker.py)
+An expense tracking application built with PyQt.
+
+**Features:**
+- Add, edit, and delete expense records
+- Categorize expenses for better organization
+- Automatic calculation of total spending
+- Input validation and error handling
+- Clean and user-friendly graphical interface
+  
+![image alt](https://github.com/Shreyapatel26/python-projects/blob/238f9b53a6d415e0c6cecdbc7dcbfe34732e8913/pyqt/screenshots/expense_tracker.png)
+
+---
 
 ## [- Password Generator](tkinter/password_generator.py)
 A password generator built with Tkinter.
@@ -43,18 +56,6 @@ A simple task management application built with Tkinter.
 
 ---
 
-## [- Expense Tracker](pyqt/expense_tracker.py)
-An expense tracking application built with PyQt.
 
-**Features:**
-- Add, edit, and delete expense records
-- Categorize expenses for better organization
-- Automatic calculation of total spending
-- Input validation and error handling
-- Clean and user-friendly graphical interface
-  
-![image alt](https://github.com/Shreyapatel26/python-projects/blob/238f9b53a6d415e0c6cecdbc7dcbfe34732e8913/pyqt/screenshots/expense_tracker.png)
-
----
 
 More projects will be added as I continue learning Python and GUI development.
