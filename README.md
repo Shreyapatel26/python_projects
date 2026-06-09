@@ -1,6 +1,6 @@
 # Python Projects
 
-A collection of projects I built while learning Python GUI development.
+A collection of projects I built while learning Python.
 
 ## [- Expense Tracker](pyqt/expense_tracker.py)
 An expense tracking application built with PyQt.
