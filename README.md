@@ -2,10 +2,10 @@
 
 A collection of projects I built while learning Python.
 
-## [- Expense Tracker](pyqt/expense_tracker.py)
+## [- 💰 Expense Tracker](pyqt/expense_tracker.py)
 An expense tracking application built with **`PyQt`**
 
-**Features:**
+**⚙️ Features:**
 - Add, edit, and delete expense records
 - Categorize expenses for better organization
 - Automatic calculation of total spending
@@ -16,10 +16,10 @@ An expense tracking application built with **`PyQt`**
 
 ---
 
-## [- Password Generator](tkinter/password_generator.py)
+## [- 🔐 Password Generator](tkinter/password_generator.py)
 A password generator built with **`Tkinter`**
 
-**Features:**
+**⚙️ Features:**
 - Generate random passwords
 - Choose whether to include uppercase letters, digits and symbols
 - Password strength indicator (Weak, Medium, Strong)
@@ -31,10 +31,10 @@ A password generator built with **`Tkinter`**
 
 --- 
 
-## [- Calculator](tkinter/calculator.py)
+## [- 🧮 Calculator](tkinter/calculator.py)
 A basic calculator built with **`Tkinter`**
 
-**Features:**
+**⚙️ Features:**
 - Addition, subtraction, multiplication, division
 - Modulus operation
 - Error handling for invalid calculations
@@ -44,10 +44,10 @@ A basic calculator built with **`Tkinter`**
 
 ---
 
-## [- To-Do List](tkinter/todo_list.py)
+## [- 📝 To-Do List](tkinter/todo_list.py)
 A simple task management application built with **`Tkinter`**
 
-**Features:**
+**⚙️ Features:**
 - Add and remove tasks
 - Clean and easy-to-use interface
 - Displays the current date and day
