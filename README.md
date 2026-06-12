@@ -2,7 +2,7 @@
 
 A collection of projects I built while learning Python.
 
-## [- 💰 Expense Tracker](pyqt/expense_tracker.py)
+## [💰 Expense Tracker](pyqt/expense_tracker.py)
 An expense tracking application built with **`PyQt`**
 
 **⚙️ Features:**
@@ -16,7 +16,7 @@ An expense tracking application built with **`PyQt`**
 
 ---
 
-## [- 🔐 Password Generator](tkinter/password_generator.py)
+## [🔐 Password Generator](tkinter/password_generator.py)
 A password generator built with **`Tkinter`**
 
 **⚙️ Features:**
@@ -31,7 +31,7 @@ A password generator built with **`Tkinter`**
 
 --- 
 
-## [- 🧮 Calculator](tkinter/calculator.py)
+## [🧮 Calculator](tkinter/calculator.py)
 A basic calculator built with **`Tkinter`**
 
 **⚙️ Features:**
@@ -44,7 +44,7 @@ A basic calculator built with **`Tkinter`**
 
 ---
 
-## [- 📝 To-Do List](tkinter/todo_list.py)
+## [📝 To-Do List](tkinter/todo_list.py)
 A simple task management application built with **`Tkinter`**
 
 **⚙️ Features:**
